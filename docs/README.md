@@ -4,7 +4,7 @@ description: Modern starter kit for React, Apollo, Redux, React Router 4, Webpac
 
 <img src="img/reactql-logo.svg" width="250" alt="ReactQL"/>
 
-[![GitHub stars](https://img.shields.io/github/stars/reactql/cli.svg?style=flat-square)](https://github.com/reactql/cli/stargazers) ![npm](https://img.shields.io/npm/dt/reactql.svg?style=flat-square) ![license](https://img.shields.io/github/license/reactql/kit.svg?style=flat-square) ![Libraries.io for GitHub](https://img.shields.io/librariesio/github/reactql/kit.svg?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/reactql/kit.svg?style=flat-square)](https://github.com/reactql/kit/issues)
+![Travis](https://api.travis-ci.org/reactql/kit.svg?branch=master) [![GitHub stars](https://img.shields.io/github/stars/reactql/cli.svg?style=flat-square)](https://github.com/reactql/cli/stargazers) ![npm](https://img.shields.io/npm/dt/reactql.svg?style=flat-square) ![license](https://img.shields.io/github/license/reactql/kit.svg?style=flat-square) ![Libraries.io for GitHub](https://img.shields.io/librariesio/github/reactql/kit.svg?style=flat-square) [![GitHub issues](https://img.shields.io/github/issues/reactql/kit.svg?style=flat-square)](https://github.com/reactql/kit/issues)
 
 ReactQL is React + GraphQL done properly &mdash; for Mac, Windows and Linux.
 
