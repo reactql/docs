@@ -1,6 +1,6 @@
 # Writing code
 
-ReactQL is a Javascript (or [Typescript](typescript.md)) starter kit, so you'll write plain JS/TS throughout.
+ReactQL is a Javascript starter kit, written in a modern ES6 style.
 
 There are, however, a few quirks and unique features that ReactQL offers, that may be a different to other starter kits or projects you've worked on in the past.
 

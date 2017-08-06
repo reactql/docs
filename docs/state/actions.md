@@ -3,9 +3,9 @@
 ---
 Now, we need to create a couple of simple '[actions](http://redux.js.org/docs/basics/Actions.html)' that will 'notify' our reducer when something needs changing.
 
-Create a file called `store/actions.js` with this:
+Create a file called `src/store/actions.js` with this:
 
-**store/actions.js**
+**src/store/actions.js**
 ```js
 export function addToDo(todo) {
   return {

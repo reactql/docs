@@ -2,13 +2,13 @@
 
 Code bundling is the process of turning your raw source code, into something that can be run in the browser and/or on the server.
 
-ReactQL includes an [extensible](https://github.com/reactql/kit/tree/master/kit/webpack) Webpack 2 configuration chain that optimises your code for both development and production environments.
+ReactQL includes an [extensible](https://github.com/reactql/kit/tree/master/kit/webpack) Webpack configuration chain that optimises your code for both development and production environments.
 
 In this section, you'll learn how it works with your Javascript, CSS and static assets.
 
 ## Links
 
-* **[Webpack](webpack.md)**. Webpack v2 is the engine that transform your source into a minified bundle that can work in your target environment.  This link explains how it works.
+* **[Webpack](webpack.md)**. Webpack v3 is the engine that transform your source into a minified bundle that can work in your target environment.  This link explains how it works.
 
 * **[Server bundling](server.md)**. Bundling isn't just for the browser. To enable inline imports of non-Javascript files, Webpack can also transform your source into a server bundle for handling your production web traffic and server-side rendering.
 

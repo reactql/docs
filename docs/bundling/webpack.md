@@ -1,4 +1,4 @@
-## Basic concepts: Webpack 2
+## Basic concepts: Webpack
 
 ---
 [Webpack](https://webpack.js.org/) is a code bundling tool that turns your raw source code into a single 'bundle' file that can run in the browser.

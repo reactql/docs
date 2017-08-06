@@ -1,6 +1,6 @@
 # Webpack config files
 
-Webpack v2 takes care of building our server and browser bundles in development, production and static modes, as well as compressing assets, hot code reloading, and more.
+[Webpack](https://webpack.js.org/) v3 takes care of building our server and browser bundles in development, production and static modes, as well as compressing assets, hot code reloading, and more.
 
 It's at the heart of ReactQL's bundling process.
 

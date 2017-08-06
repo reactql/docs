@@ -1,7 +1,7 @@
 # Running the demo
 
 ---
-Now if we fire up our project with `npm start`, we see this:
+After designing our screens, we might have something that looks like this:
 
 ![No-todos](img/redux1.png)
 

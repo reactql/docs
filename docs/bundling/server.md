@@ -9,9 +9,9 @@ Just like in the browser, that makes code like this perfectly valid on the serve
 
 ```js
 // importing a .css file and treating it like JS would be impossible in a browser...
-import json from 'config/someConfig.json'
+import css from 'some/stylesheet.css'
 
-console.log(json.apiKey); // <-- what the...?!
+console.log(css.classname); // <-- what the...?!
 ```
 
 The server bundle contains a built-in [Koa web server](http://koajs.com/) that will listen to HTTP requests, render the relevant React code into HTML, and serve it back to your user.

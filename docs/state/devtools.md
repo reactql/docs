@@ -3,7 +3,7 @@
 ---
 In the Chrome webstore, there's an awesome free [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) extension that lets you view Redux state from within the Developer console.
 
-Remember this line from [kit/lib/redux.js](https://github.com/reactql/kit/blob/master/kit/lib/redux.js)?
+In [kit/lib/redux.js](https://github.com/reactql/kit/blob/master/kit/lib/redux.js), we have this line of code:
 
 ```js
 (!SERVER && typeof window.__REDUX_DEVTOOLS_EXTENSION__ !== 'undefined') ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f,

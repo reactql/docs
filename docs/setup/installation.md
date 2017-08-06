@@ -10,10 +10,3 @@ npm i -g reactql
 ```
 
 This will install the `reactql` CLI tool on your local machine, allowing you to [create a new project](project.md).
-
-## Video: Installation walk-through
-
----
-{% youtube %}
-https://www.youtube.com/watch?v=gOMHRBonsUQ
-{% endyoutube %}

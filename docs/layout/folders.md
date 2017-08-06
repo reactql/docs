@@ -2,6 +2,8 @@
 
 Code is organised neatly into folders, to make it clear what goes where.
 
+**TL;DR - Put your own code in `src`, and generally you won't need to edit anything else!**
+
 Here's the folder layout:
 
 ## [`config`](https://github.com/reactql/kit/blob/master/config)
@@ -9,11 +11,7 @@ Here's the folder layout:
 ---
 Project configuration files, such as the folder structure that ReactQL will use to determine where your code lives.
 
-You can put your own settings in [`config/project.js`](https://github.com/reactql/kit/blob/master/config/project.js) or create new files in this folder to host them.
-
-By default, [`config/project.js`](https://github.com/reactql/kit/blob/master/config/project.js) contains just the URI that Apollo will use to connect to your back-end GraphQL server. You can extend this with your own configuration options, for example SMTP details or other API endpoints.
-
-This is written in ES6 style with no defaults, so you can import select configuration options from the client side without exposing credentials thanks to automatic tree-shaking/dead code elimination.
+You shouldn't need to edit any files in here, unless you're making changes to the fundamental layout of the kit.
 
 ## [`kit`](https://github.com/reactql/kit/blob/master/kit)
 
@@ -50,14 +48,14 @@ Contains the following:
 ### [`kit/webpack`](https://github.com/reactql/kit/blob/master/kit/webpack)
 
 ---
-Webpack v2 config files. [See here](webpack.md) for a complete break-down.
+Webpack config files. [See here](webpack.md) for a complete break-down.
 
 ## [`src`](https://github.com/reactql/kit/blob/master/src)
 
 ---
-This is where all of your own code will live. By default, it contains the `<App>` component in [`app.js`](https://github.com/reactql/kit/blob/master/src/app.js) which demonstrates a few of the concepts that this starter kit offers you, along with CSS defined in various style files.
+This is where all of your own code will live. Start editing [`app.js`](https://github.com/reactql/kit/blob/master/src/app.js) -- this is where you define your app config, and export your root React component.
 
-You can overwrite these files directly with your own code and use this as a starter point.
+However else you organise your code `src` is entirely up to you.
 
 ## [`static`](https://github.com/reactql/kit/blob/master/static)
 

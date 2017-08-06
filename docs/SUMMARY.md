@@ -7,7 +7,6 @@
   * [System requirements](setup/requirements.md)
   * [Installing the CLI](setup/installation.md)
   * [Starting a new project](setup/project.md)
-  * [Typescript support](setup/typescript.md)
   * [Upgrading](setup/upgrading.md)
 
 
@@ -25,7 +24,6 @@
 
 * [Writing code](writing_code/README.md)
   * [Styleguide](writing_code/styleguide.md)
-  * [ES6 or Typescript?](writing_code/typescript.md)
   * [Module resolution](writing_code/modules.md)
   * [GraphQL components](writing_code/graphql.md)
 

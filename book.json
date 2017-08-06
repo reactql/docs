@@ -7,8 +7,7 @@
     "-highlight",
     "prism",
     "heading-anchors",
-    "youtube",
-    "disqus"
+    "youtube"
   ],
   "pluginsConfig": {
     "disqus": {

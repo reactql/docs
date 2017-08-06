@@ -15,6 +15,8 @@ There are various configuration files that you'll find in the root:
 
 - [`browerslist`](https://github.com/reactql/kit/blob/master/browerslist): Browser target versions, so Webpack knows which polyfills to add. By default, we're targeting the last 3 versions of all major browsers.
 
+- [`Dockerfile`](https://github.com/reactql/kit/blob/master/Dockerfile): Docker build file, for creating a Docker image that can be used to spawn production containers.
+
 - [`package.json`](https://github.com/reactql/kit/blob/master/package.json): NPM packages used in this starter kit.  When you're extending this kit with your own code, you'll probably want to change the name, description and repo links and replace with your own.
 
 - [`package-lock.json`](https://github.com/reactql/kit/blob/master/package-lock.json): If you're using NPM v5, this lock file will be re-used to speed up installing packages.
